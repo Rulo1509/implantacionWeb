@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$saludo = "Hola mundo! Soy Raúl Pita Balseiro y estoy mostrando una variable";
+
+echo $saludo;
+?>
+
+</body>
+</html>
