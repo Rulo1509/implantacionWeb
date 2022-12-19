@@ -3,8 +3,8 @@
   $numero = 5;
 
     if (fmod($numero, 2) == 0) {
-    echo "Soy un número par";
+    echo "$numero Es un número par";
   } else {
-     echo "Soy un número impar";
+     echo "$numero Es un número impar";
   }
 ?>
