@@ -1,0 +1,10 @@
+<?php
+  // Variable (Cambiar número AQUÍ)
+  $numero = 5;
+
+    if (fmod($numero, 2) == 0) {
+    echo "Soy un número par";
+  } else {
+     echo "Soy un número impar";
+  }
+?>
