@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
- $contador = 1;
-   $limite = 11;
-   while($contador < $limite){
-      echo $contador . '<br />';
-      $contador++;
-   }
-?>
-
-</body>
-</html>
+for ($i = 1; $i <= 10; $i++) {
+    echo $i . " ";
+}
