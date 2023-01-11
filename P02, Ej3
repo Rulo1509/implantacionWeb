@@ -1,0 +1,8 @@
+<?php
+    
+    $motos = array ("yamaha", "honda", "kawasaki", "suzuki");
+    
+    $coches = array ("ford", "audi", "mercedes", "citroen");
+    
+    var_dump ($coches);
+?> SIN ACABAR
