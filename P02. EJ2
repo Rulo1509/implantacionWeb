@@ -1,5 +1,5 @@
 <?php
-    $nota = 10;
+    $nota = -3;
     
     switch ($nota) {
         case $nota >= 9:
@@ -11,7 +11,10 @@
         case $nota >= 5;
             echo "El examen está aprobado";
             break;
-            default;
+        case $nota <5 && $nota >= 0;
             echo "El examen está suspenso";
+            break;
+            default;
+            echo "La nota no es válida";
     }
 ?>
