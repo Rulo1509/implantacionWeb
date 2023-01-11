@@ -1,14 +1,14 @@
 <?php
-    $nota = -3;
+    $nota = 12;
     
     switch ($nota) {
-        case $nota >= 9:
+        case $nota >= 9 && $nota <=10:
             echo "La nota del examen es un sobresaliente";
             break;
-        case $nota >= 7;
+        case $nota >= 7 && $nota <=8;
             echo "La nota del examen es un notable";
             break;
-        case $nota >= 5;
+        case $nota >= 5 && $nota <=6;
             echo "El examen está aprobado";
             break;
         case $nota <5 && $nota >= 0;
