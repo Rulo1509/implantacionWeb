@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mi página</title>
-</head>
+<!DOCTYPE HTML>
+<html>  
 <body>
-  <?php
-  
-  ?>
+
+<form action="welcome.php" method="post">
+	<p>Name: <input type="text" name="name"></p>
+    
+	E-mail: <input type="text" name="email"><br>
+    
+	<p>Website: <input type="text" name="website"></p><br>
+    
+	<p>Comment: <textarea rows="5" cols="30"></textarea></p>
+    
+    <p>
+    Gender: 
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+    </p>
+
+		<input type="submit" value="Submit">
+</form>
 
 </body>
 </html>
