@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi página</title>
+</head>
+<body>
+        <?php
+		  	$fecha_actual1 = date("Y-m-d");
+  		 	$fecha_actual2 = date("h:i:s A");
+    		$fecha_actual3 = date("H:i:s");
+    		$fecha_actual4= date("l, F j, Y"); 
+        
+        	print_r($fecha_actual1);
+            print_r($fecha_actual2);
+            print_r($fecha_actual3);
+            print_r($fecha_actual4);
+		?>
+
+</body>
+</html>
