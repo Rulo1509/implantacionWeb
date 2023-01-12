@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>  
 <body>
+<H2>PHP Form Validation Example</H2>
 
 <form action="welcome.php" method="post">
 	<p>Name: <input type="text" name="name"></p>
@@ -18,7 +19,7 @@
     <input type="radio" name="gender" value="other"> Other
     </p>
 
-		<input type="submit" value="Submit">
+	<input type="submit" value="Submit">
 </form>
 
 </body>
