@@ -5,10 +5,37 @@
 </head>
 <body>
         <?php
-        $motos = array("yamaha", "honda", "kawasaki", "suzuki");
-        $coches = array("toyota", "ford", "volkswagen", "nissan");
+        $motos = array("Yamaha", "Honda", "Suzuki", "Kawasaki");
+		$coches = array("Ford", "Chevrolet", "Toyota", "Nissan");
 		
-    ?>
+		foreach($motos as $moto) {
+			echo $moto . "<br>";
+		}
+		
+		sort($motos);
+		
+		foreach($motos as $moto) {
+			echo $moto . "<br>";
+		}
+		
+		function mostrarResultadosOrdenados($array){
+			sort($array);
+			foreach($array as $item) {
+				echo $item . "<br>";
+			}
+		}
+
+		mostrarResultadosOrdenados($motos);
+		mostrarResultadosOrdenados($coches);
+		
+		$numElementos = count($array);
+		
+		echo "Hay " . $numElementos . " elementos en el array: <br>";
+		foreach($array as $item) {
+			echo $item . "<br>";
+		}
+		
+		?>
 
 </body>
 </html>
