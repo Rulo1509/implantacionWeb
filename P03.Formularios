@@ -3,7 +3,7 @@
 <body>
 <H2>PHP Form Validation Example</H2>
 
-<form action="welcome.php" method="post">
+<form action="destino.php" method="post">
 	<p>Name: <input type="text" name="name"></p>
     
 	E-mail: <input type="text" name="email"><br>
