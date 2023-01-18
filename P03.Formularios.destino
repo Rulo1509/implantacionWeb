@@ -1,1 +1,10 @@
-
+<html>
+<?php
+$name = $_POST["name"];
+$email = $_POST["email"];
+$website = $_POST["website"];
+echo "Nombre: " . $name . "<br>";
+echo "Email: " . $email . "<br>";
+echo "Website: " . $website . "<br>";
+?>
+</html>
