@@ -1,0 +1,13 @@
+<?php
+if(isset($_FILES['fileToUpload'])){
+    $file = $_FILES['fileToUpload'];
+    $file_name = $file['name'];
+    $file_tmp = $file['tmp_name'];
+    move_uploaded_file($file_tmp,"uploads/".$file_name);
+}
+if( $_FILES['fileToUpload']['size'] > 1000000 ) {
+  echo "No se pueden subir archivos con tamaño mayor a 1MB";
+} 
+}
+
+?>
