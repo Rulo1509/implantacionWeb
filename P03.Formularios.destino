@@ -1,10 +1,4 @@
-<html>
-<?php
-$name = $_POST["name"];
-$email = $_POST["email"];
-$website = $_POST["website"];
-echo "Nombre: " . $name . "<br>";
-echo "Email: " . $email . "<br>";
-echo "Website: " . $website . "<br>";
-?>
-</html>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileToUpload">
+    <input type="submit" value="Upload">
+</form>
